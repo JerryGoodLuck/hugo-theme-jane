@@ -1,12 +1,12 @@
 import initMobileNavbar from './initMobileNavbar';
 import initToc from './initToc';
 import initHeaderAnchor from './initHeaderAnchor';
-import initFootnoteTooltip from './initFootnoteTooltip';
+import initToogleTheme from './initToogleTheme';
 
 /* main */
 $(document).ready(function () {
+  initToogleTheme();
   initMobileNavbar();
   initToc();
   initHeaderAnchor();
-  initFootnoteTooltip();
 });
